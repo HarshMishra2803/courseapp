@@ -9,7 +9,7 @@ function adminmiddleware(req,res,next){
 
     if(decoded){
         req.userId = decoded.id;
-        next;
+        next();
     }else{
         res.status(404).json({
             message:"admin not signed in "
