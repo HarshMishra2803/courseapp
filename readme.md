@@ -1,1 +1,1 @@
-# Creating a Course Selling App - End to End
+# Creating a Course Selling App - End to End backend only
