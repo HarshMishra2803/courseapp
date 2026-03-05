@@ -55,7 +55,7 @@ userRouter.get("/purchases",usermiddleware, async(req, res) => {
         userId
     })
 
-    // let purchasecourseId = [];
+    // let purchasecourseId = [];;
     // for(let i = 0 ; i<purchases.length ; i++){
     //   purchasecourseId.push(purchases[i].courseId)
     // }
